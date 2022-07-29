@@ -1,0 +1,32 @@
+.contentContainer {
+  width: 100%;
+  max-width: 700px;
+  padding: 0 2rem;
+
+  margin: 0 auto;
+}
+
+.postInfoContainer {
+  margin-top: 1.5rem;
+  color: var(--info);
+  display: flex;
+
+  > * {
+    display: flex;
+    align-items: center;
+
+    svg {
+      margin-right: 0.5rem;
+    }
+  }
+
+  > * + * {
+    margin-left: 1.5rem;
+  }
+}
+
+.writtenContent {
+  * + * {
+    margin-top: 1.25ch;
+  }
+}
